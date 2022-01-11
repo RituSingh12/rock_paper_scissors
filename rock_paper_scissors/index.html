@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contner">
+        <div class="head">
+            <div class="score">
+                <div class="score1">
+                    <p id="you">You : 0</p>
+                    <div id="youHand">
+                        <i class="fas fa-user-alt fa-3x" id="human"></i>
+                    </div>
+                </div>
+                <div id="resultbox"></div>
+                <div class="score2">
+                    <p id="computer">Computer : 0</p>
+                    <div id="computerHand">
+                        <i class="fas fa-robot fa-3x" id="robot"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hand">
+            <i class="fas fa-hand-rock fa-10x" id="rock"></i>
+            <i class="fas fa-hand-paper fa-10x" id="paper"></i>
+            <i class="fas fa-hand-scissors fa-10x" id="scissors"></i>
+        </div>
+        <div>
+            <button class="btn" id="start">Start</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
